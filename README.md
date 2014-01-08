@@ -53,6 +53,7 @@ git clone <repo>
 cd /path/to/repo
 npm install
 # Edit settings.js
+vim settings.js
 # Start redis server
 /path/to/redis-server
 node main.js
