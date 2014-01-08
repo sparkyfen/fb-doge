@@ -40,24 +40,18 @@ Version
 Dependencies
 ============
 [Redis](http://redis.io)
+
 [NodeJS](http://nodejs.org)
 
 Installation
 ============
+Head to [Facebook](https://developers.facebook.com/tools/explorer/) to generate an oauth token with permissions: 
+```friends_birthday, friends_status, manage_notifications, manage_pages, read_mailbox, read_page_mailboxes, user_events, user_friends, xmpp_login```
+
 ```bash
 git clone <repo>
 cd /path/to/repo
 npm install
-# Head to Facebook (https://developers.facebook.com/tools/explorer/) to generate an oauth token with permissions: 
-# friends_birthday, 
-# friends_status, 
-# manage_notifications, 
-# manage_pages, 
-# read_mailbox, 
-# read_page_mailboxes, 
-# user_events, 
-# user_friends, 
-# xmpp_login
 # Edit settings.js
 # Start redis server
 /path/to/redis-server
