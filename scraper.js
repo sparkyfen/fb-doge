@@ -88,6 +88,7 @@ var parseCoin = function (coinStr, callback) {
 };
 
 // Check to see if the name of the coin that the bot can use is valid
+// Currently testing with DOGE only
 // http://en.wikipedia.org/wiki/List_of_cryptocurrencies
 var isvalidCoinCode = function(coinStr, callback) {
 	switch(coinStr.toUpperCase()) {
