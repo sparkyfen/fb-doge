@@ -16,7 +16,7 @@ var clientSecret = settings.facebook.clientSecret;
 var accessToken = settings.facebook.accessToken;
 var pageAccessToken = '';
 
-// Parses the registeration method to look for the doge address
+// Parses the registration method to look for the doge address
 // This method is expected to be called after getMessageType() verifies that we have a registration message
 var parseRegisterMessage = function(message, callback) {
 	var messageArray = message.split(' ');
