@@ -29,10 +29,6 @@ To the moon!
        Facebook wow
 ```
 
-Author
-======
-Adam Schodde
-
 Version
 =======
 0.0.1
