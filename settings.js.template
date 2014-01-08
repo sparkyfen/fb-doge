@@ -1,0 +1,21 @@
+module.exports = {
+	redis: {
+		ip: '127.0.0.1',// Default host for redis
+		port: 6379 // Default port for redis
+	},
+	facebook: {
+		id: <YOUR FACEBOOK PAGE ID Number>,
+		name: '<FACEBOOK PAGE NAME>',
+		clientID: '<Facebook Application Client ID>',
+		clientSecret: '<Facebook Application Client Secret>',
+		accessToken: '<Facebook User OAuth Token>'
+	},
+	dogecoin: {
+		rpc: {
+			host: 'localhost', // Default host for dogecoind
+			user: '<Dogecoind RPC username>',
+			password: '<Dogecoind RPC password>',
+			port: 22555 // Default port for dogecoind
+		}
+	}
+};
