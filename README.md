@@ -43,6 +43,8 @@ Dependencies
 
 [NodeJS](http://nodejs.org)
 
+[Compiled dogecoind](https://github.com/dogecoin/dogecoin)
+
 Installation
 ============
 Head to [Facebook](https://developers.facebook.com/tools/explorer/) to generate an oauth token with permissions: 
