@@ -14,7 +14,7 @@
     "request": "*",
     "redis": "*",
     "bitcoin": "*",
-    "bcrypt": "*",
+    "crypto": "*",
     "https://github.com/brutalhonesty/dogechain.js.git": "~1.0.0"
   },
   "repository": [
