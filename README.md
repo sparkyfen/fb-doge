@@ -56,5 +56,7 @@ npm install
 vim settings.js
 # Start redis server
 /path/to/redis-server
+# Make sure dogecoind is running in daemon mode with proper configuration set (rpcuser, rpcpass, etc..)
+# Run server
 node main.js
 ```
