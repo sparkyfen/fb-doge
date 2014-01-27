@@ -10,12 +10,11 @@
     }
   ],
   "dependencies": {
-    "fb": "*",
-    "request": "*",
-    "redis": "*",
-    "bitcoin": "*",
-    "crypto": "*",
-    "https://github.com/brutalhonesty/dogechain.js.git": "~1.0.0"
+    "fb": "~0.6.2",
+    "redis": "~0.10.0",
+    "bitcoin": "~2.0.1",
+    "crypto": "0.0.3",
+    "dogechain.js": "git+https://github.com/brutalhonesty/dogechain.js.git"
   },
   "repository": [
     {
@@ -34,6 +33,6 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "install" : "cp settings.js.template settings.js"
+    "install": "cp settings.js.template settings.js"
   }
 }

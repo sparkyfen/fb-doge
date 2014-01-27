@@ -1,5 +1,4 @@
 var FB = require('fb');
-var request = require('request');
 var crypto = require('crypto');
 var bitcoin = require('bitcoin');
 var dogeChainAPI = require('dogechain.js');
