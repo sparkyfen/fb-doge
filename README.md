@@ -10,7 +10,7 @@ I am not a lawyer, this is not legal advice.
 
 License
 -------
-This software is released under the [MIT](www.tldrlegal.com/license/mit-license) license.
+This software is released under the [MIT](http://www.tldrlegal.com/license/mit-license) license.
 
 A copy of the license file is attached to the source code.
 
