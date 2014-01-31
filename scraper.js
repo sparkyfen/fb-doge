@@ -271,7 +271,6 @@ var withdraw = function (messageData) {
                 messageUser(messageData.messageID, 'There was an issue withdrawing at this time, please try again later.', messageData.pageAccessToken);
                 return;
             }
-            // TODO make sure we message the user with confirmation so that we don't get stuck reading the same message over and over again.
             var coinName = coinData.coinName;
             var coinAmount = coinData.coinAmount;
             switch(coinName) {
@@ -449,6 +448,7 @@ var replyStatus = function(statusID, message) {
         // Using a page token will a "Error finding the requested story" error.
         // Using a user token will cause "An unexpected error has occurred. Please retry your request later." BUT the post does show up!
         // https://developers.facebook.com/x/bugs/218862188300393/
+        // https://developers.facebook.com/x/bugs/1378024742458739/
         // Currently leaving it as page token because that's the one we want when it starts to work
         FB.api('/' + statusIDArr[1] + '/comments', 'post', {message: message, access_token: pageToken}, function (res) {
             if(!res || res.error) {
