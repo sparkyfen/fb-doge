@@ -24,4 +24,4 @@ Messages
 
 API
 ---
-* All requests to user data (mentions in particular) should eventually have &since=' + (Date.now() - 120000) + ' added to it where 120000 is the space between each request in the main.js timeout.
+* All requests to user data (mentions in particular) should eventually have ```&since=' + (Date.now() - 120000) + '``` added to it where 120000 is the space between each request in the main.js timeout.
